@@ -3,9 +3,7 @@ public class CalculateBMI {
 
  public static double calculate(double height,double weight)
  {
-	 height=height/100.0;
-	 double BMI=weight/(height*height);
-	 return BMI;
+	 return height/weight;
  }
      
     public static String description(double bmi) {
