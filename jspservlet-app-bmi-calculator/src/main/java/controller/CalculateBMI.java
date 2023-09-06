@@ -1,7 +1,7 @@
 package controller;
 public class CalculateBMI {
 
-public static double calculate(double height,double weight)
+public static double calculate(double height, double weight)
  {
 	height=height/100.0;
 	double BMI=weight/(height*height);
