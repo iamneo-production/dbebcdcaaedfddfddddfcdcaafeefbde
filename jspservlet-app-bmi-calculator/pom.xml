@@ -8,7 +8,9 @@
   <name>jspservlet-app-ATM Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <properties>
-  
+  <maven.compile.source>1.8</maven.compile.source>
+  <maven.compile.target>1.8</maven.compile.target>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
