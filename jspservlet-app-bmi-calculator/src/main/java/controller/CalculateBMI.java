@@ -8,7 +8,7 @@ public static double calculate(double height,double weight)
 	 return BMI;
  }
      
-    public static String description(double bmi) {
+public static String description(double bmi) {
         if(bmi < 18.5) {
             return "Under Weight";
         }else if (bmi >= 18.5 && bmi < 24.9) {
